@@ -1,0 +1,5 @@
+# Shadow (Debian)
+resources/shadow-amd64.deb
+
+# Batch File
+build-and-run.bat
