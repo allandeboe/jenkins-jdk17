@@ -1,7 +1,7 @@
 # Jenkins - JDK17
 functional, `jenkins/jenkins:lts-jdk17` docker image that is in dark mode by default and contains all relevant dependencies that make it easy to have Jenkins pipelines build and run docker images & containers. It also ensures that the Built-in Node has 0 executors.
 
-I personally use this for my other project, [*Focust*](https://github.com/allandeboe/Focust-Web-App).
+I personally use this for my other project, [*Focust*](https://github.com/allandeboe/focust).
 
 Based on [liatrio/alpine-jenkins](https://github.com/liatrio/alpine-jenkins), hence the same Apache 2.0 License. However, it is modified to work with `jenkins/jenkins:lts-jdk17` instead of `jenkins/jenkins:2.154-alpine` as well as to fit with my needs.
 
